@@ -1,5 +1,5 @@
 #header {
-    background: rgba(202, 92, 2, 0);
+    background: rgba(66, 31, 1, 0.664);
     padding: 8px 0;
     position: fixed;
     width: 100%;
@@ -16,6 +16,10 @@ a{
 a:visited,
 a:focus {
     color: #fff;
+}
+
+.section-gap {
+    padding: 96px 0;
 }
 
 #nav-menu-container {
@@ -64,9 +68,6 @@ a:focus {
     color: #ffb005;
 }
 
-#about {
-    padding: 96px 0;
-}
 
     #about .video{
         background-image: url("../images/bg/video-bg.png");
@@ -92,4 +93,110 @@ a:focus {
 
 #about .video .play-btn {
     z-index: 2;
+}
+
+#pizza {
+    background-image: url("../images/bg/menu-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pizza .pizza-item {
+    background: #fff;
+    padding: 20px;
+    margin: 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 13px 0 #b68834;
+}
+
+#pizza .pizza-item .price {
+    color: #b68834;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#gallery .img-fluid {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.footer {
+    background-image: url("../images/bg/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.356);
+    padding: 80px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-column h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-column p {
+    color: #d4d4d4;
+    line-height: 1.7;
+}
+
+.newsletter-form {
+    margin-top: 15px;
+    display: flex;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+.newsletter-form button {
+    width: 55px;
+    border: none;
+    background: #d35400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff7a00;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
 }

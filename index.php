@@ -49,7 +49,7 @@
                                         <h1>
                                             Have a nice day with
                                             <br>
-                                            a Peperoni!1
+                                            a Pepperoni!
                                         </h1>
                                         <a href="#" class="btn btn-outline-primary text-uppercase">Order now</a>
                                     </div>
@@ -60,11 +60,11 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-7 banner-slide-container">
-                                        <h6>NOW YOU CAN FEEL TASTE</h6>
+                                        <h6>HOW YOU CAN FEEL TASTE OF SUMMER?</h6>
                                         <h1>
-                                            Have a nice day with
+                                            Choose 
                                             <br>
-                                            a Peperoni!2
+                                            a Hawaiian!
                                         </h1>
                                         <a href="#" class="btn btn-outline-primary text-uppercase">Order now</a>
                                     </div>
@@ -75,11 +75,11 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-7 banner-slide-container">
-                                        <h6>NOW YOU CAN FEEL TASTE</h6>
+                                        <h6>TASTE THE CLASSIC</h6>
                                         <h1>
-                                            Have a nice day with
+                                            Start you day with
                                             <br>
-                                            a Peperoni!3
+                                            a Margherita!
                                         </h1>
                                         <a href="#" class="btn btn-outline-primary text-uppercase">Order now</a>
                                     </div>
@@ -90,7 +90,7 @@
         </div>
     </div>
 </section>
-<section id="about">
+<section id="about" class="section-gap">
     <div class="container">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-6 video d-flex align-items-center justify-content-center">
@@ -109,6 +109,226 @@
         </div>
     </div>
 </section>
+
+<section id="pizza" class="section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class=".pizza-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">What kind of Pizza we serve for you</h1>
+                    <p>Choose your favorite</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Pepperoni</h4>
+                        <p class="price float-right">
+                            $5
+                        </p>
+                    </div>
+                    <p>
+                        Classic loaded with spicy pepperoni slices.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Margherita</h4>
+                        <p class="price float-right">
+                            $3
+                        </p>
+                    </div>
+                    <p>
+                        Classic tomato souce, mozzarella & basill.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Hawaiian</h4>
+                        <p class="price float-right">
+                            $4
+                        </p>
+                    </div>
+                    <p>
+                        Tomato sauce, mozzarella, ham, pineapple.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Pepperoni</h4>
+                        <p class="price float-right">
+                            $5
+                        </p>
+                    </div>
+                    <p>
+                        Classic loaded with spicy pepperoni slices.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Margherita</h4>
+                        <p class="price float-right">
+                            $3
+                        </p>
+                    </div>
+                    <p>
+                        Classic tomato souce, mozzarella & basill.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Hawaiian</h4>
+                        <p class="price float-right">
+                            $4
+                        </p>
+                    </div>
+                    <p>
+                        Tomato sauce, mozzarella, ham, pineapple.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Pepperoni</h4>
+                        <p class="price float-right">
+                            $5
+                        </p>
+                    </div>
+                    <p>
+                        Classic loaded with spicy pepperoni slices.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Margherita</h4>
+                        <p class="price float-right">
+                            $3
+                        </p>
+                    </div>
+                    <p>
+                        Classic tomato souce, mozzarella & basill.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pizza-item">
+                    <div class="title justify-content-between d-flex">
+                        <h4>Hawaiian</h4>
+                        <p class="price float-right">
+                            $4
+                        </p>
+                    </div>
+                    <p>
+                        Tomato sauce, mozzarella, ham, pineapple.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class=".pizza-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">Our pizza moments</h1>
+                    <p>Follow us on Instagram @animepizza</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/kind_pizza/g1.png" class="img-fluid" />
+                <img src="images/kind_pizza/g2.png" class="img-fluid" />
+            </div>
+            <div class="col-lg-8">
+                <img src="images/kind_pizza/g3.png" class="img-fluid" />
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="images/kind_pizza/g4.png" class="img-fluid" />
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/kind_pizza/g5.png" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pizza" class="section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class=".pizza-content pb-60 col-lg-10">
+                <div class="title text-center">
+                    <h1 class="mb-10">What kind of Pizza we serve for you</h1>
+                    <p>Choose your favorite</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-overlay">
+        <div class="container footer-content">
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+                </p>
+
+                <p class="copyright">
+                    Copyright © 2026 All rights reserved | Anime Pizza
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news</p>
+
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter Email">
+                    <button type="submit">➜</button>
+                </form>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <p>Let us be social</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
 
 <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="scripts/main.js"></script>
