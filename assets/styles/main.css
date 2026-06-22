@@ -3,6 +3,7 @@
     padding: 8px 0;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 #logo {
@@ -118,6 +119,22 @@ a:focus {
 #gallery .img-fluid {
     margin-bottom: 30px;
     width: 100%;
+}
+
+#review {
+    background-image: url("../images/bg/menu-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc {
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #d35400;
 }
 
 .footer {
