@@ -1,6 +1,5 @@
 <?php
 const ROOT_DIR = __DIR__;
-
 // require_once __DIR__ . '/vendor/autoload.php';
 
 if (!session_id()){
@@ -8,11 +7,12 @@ if (!session_id()){
 }
 
 require_once __DIR__ . '/config/constants.php';
+require_once __DIR__ . '/config/DB.php';
+require_once APP_DIR . '/index.php';
+
+require_once PARTS_DIR . '/header.php';
 require_once PAGES_DIR . '/main.php';
-// require_once __DIR__ . '/config/DB.php';
-
-
-// require_once APP_DIR . '/index.php';
+require_once PARTS_DIR . '/footer.php';
 
 
 // if (!empty($_POST)){

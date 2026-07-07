@@ -11,7 +11,9 @@ services:
       - dick
 
   php:
-    image: php:8.2-fpm-alpine3.22
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
     container_name: php-fpm
     working_dir: /var/www
     volumes:
@@ -24,12 +26,12 @@ services:
     container_name: mysql
     ports:
       - "3306:3306"
-    volumes: 
+    volumes:
       - mysql_data:/var/lib/mysql
-    environment: 
+    environment:
       MYSQL_DATABASE: jopa
-      MYSQL_ROOT_PASSWORD: 1111 # сложный пароль)
-      MYSQL_PASSWORD: 1111 
+      MYSQL_ROOT_PASSWORD: "1111"
+      MYSQL_PASSWORD: "1111"
       MYSQL_USER: user
     networks:
       - dick
@@ -41,7 +43,6 @@ networks:
 volumes:
   mysql_data:
     driver: local
-
 
 
 

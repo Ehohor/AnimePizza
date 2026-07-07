@@ -40,6 +40,8 @@
     </div>
 </footer>
 
+<?php require_once PARTS_DIR . '/modals.php' ?>
+
 <script src="<?= ASSETS_URI ?>libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="<?= ASSETS_URI ?>scripts/main.js"></script>
 </body>

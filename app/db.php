@@ -1,10 +1,19 @@
 <?php
+
+/**
+ * @param string $from
+ * @param string $columns
+ * @param string|null $conditions
+ * @param string|null $order
+ * @return array|false
+ */
+
 function db_select(string $from, string $columns = '*', string $conditions = null, string $order = null)
 {
     $db = DB::connect();
 
 
-    $query = "select {$columns} from {$from} ";
+    $query = "SELECT {$columns} FROM {$from}";
     $query .= $conditions ? " WHERE {$conditions}" : '';
     $query .= $order ? " ORDER BY {$order}" : '';
 

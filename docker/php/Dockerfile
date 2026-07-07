@@ -1,4 +1,6 @@
-FROM php:8.2-fpm
-RUN apt-get update && apt-get install -y \
-		git \
-		curl \
+FROM php:8.2-fpm-alpine3.22
+
+RUN docker-php-ext-install pdo_mysql
+
+		
+

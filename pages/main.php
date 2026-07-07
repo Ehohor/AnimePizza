@@ -1,8 +1,20 @@
 <?php
-require_once PARTS_DIR . '/head.php';
-require_once PARTS_DIR . '/nav.php';
+$content = convertContentToAssoc(db_select(
+    from:"content",
+    conditions: "name IN('banner','about', 'pizza')"
+));
 require_once PARTS_DIR . '/banner.php';
 require_once PARTS_DIR . '/about.php';
+
+$products = db_select(
+    from:"products",
+    columns: "id, title, price, quantity, description",
+    conditions: "is_option is FALSE AND quantity > 0",
+    order: "price"
+);
+
+require_once PARTS_DIR . '/header.php';
+require_once PARTS_DIR . '/nav.php';
 require_once PARTS_DIR . '/pizza.php';
 require_once PARTS_DIR . '/gallery.php';
 require_once PARTS_DIR . '/review.php';

@@ -1,9 +1,16 @@
+<?php
+$content = convertContentToAssoc(db_select(
+    from:"content",
+    conditions: "name = 'navigation'"
+));
+if (!empty($content['navigation'])):
+?>
 <header id="header">
     <div class="container">
         <div class="row d-flex align-items-center justify-content-between">
             <div id="logo">
-                <a href="index.html">
-                    <img src="<?= ASSETS_URI ?>images/logo.png" alt="Logo"/>
+                <a href="<?= $content['navigation']['logo']['link'] ?>">
+                    <img src="<?= ASSETS_URI . $content['navigation']['logo']['image']?>" alt="Logo"/>
                 </a>
             </div>
             <nav id="nav-menu-container">
@@ -19,3 +26,4 @@
         </div>
     </div>
 </header>
+<?php endif; ?>
