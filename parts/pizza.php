@@ -25,6 +25,10 @@ $products = array_chunk($products, length: 3);
                         <div class="pizza-item"
                             data-id="<?= $item['id'] ?>"
                             data-qnty="<?= $item['quantity'] ?>"
+                            data-name="<?= $item['title'] ?>"
+                            data-price="<?= $item['price'] ?>"
+                            data-bs-toggle="modal" 
+                            data-bs-target="#buy"
                         >
                             <div class="title justify-content-between d-flex">
                                 <h4><?=$item['title'] ?></h4>

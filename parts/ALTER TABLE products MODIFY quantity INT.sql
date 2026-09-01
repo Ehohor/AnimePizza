@@ -1,0 +1,1 @@
+ALTER TABLE products MODIFY quantity INT(10) unsigned

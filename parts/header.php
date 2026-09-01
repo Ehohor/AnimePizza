@@ -8,6 +8,10 @@
     <title>AnimePizza</title>
     <link rel="stylesheet" href="<?= ASSETS_URI ?>libs/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?= ASSETS_URI ?>styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
 </head>
 <body>
+<?php require_once PARTS_DIR . '/notifications.php'; ?>
 <?php require_once PARTS_DIR . '/nav.php'; ?>
